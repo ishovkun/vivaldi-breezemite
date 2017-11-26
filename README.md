@@ -78,3 +78,8 @@ and
     width: 0px !important;
 }
 ~~~~
+
+## P.S.
+Special thanks to the author of the Breezemite theme Andrey Orst.
+Check out his repo too!
+https://github.com/andreyorst/Breezemite
