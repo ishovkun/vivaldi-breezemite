@@ -7,7 +7,7 @@
 }
 #tabs-container.top {
     padding-top:0px !important;  
-    padding-left: 85px !important;
+    padding-left: 78px !important;
 }
 .maximized #tabs-container.top  {
     padding-top:0px !important;  
@@ -30,6 +30,7 @@
 }
 #browser .window-buttongroup button {
     height: 30px !important;
+    width: 21px !important;
     margin-left: 0px !important;
     background-repeat: no-repeat;
  }
