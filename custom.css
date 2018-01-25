@@ -1,44 +1,121 @@
-#browser .vivaldi { 
-    /*display: none !important; */
-    /*top: -10 !important;*/
+#browser .vivaldi {
+    display: none !important;
     padding-bottom: 7px !important;
-    padding-top: 5px;
-    height: 13px;
+    /* padding-top: 5px; */
+    padding-top: 0px;
+    height: 0px;
+    position: relative !important;
+}
+#tabs-container .trash {
+  display: flex;
+  flex: 0 0 auto;
+  margin-right: -40px !important;
 }
 #tabs-container.top {
-    padding-top:0px !important;  
+    padding-top:0px !important;
     padding-left: 78px !important;
 }
 .maximized #tabs-container.top  {
-    padding-top:0px !important;  
+    padding-top:0px !important;
     padding-left: 0px !important;
 }
-#browser.linux .window-buttongroup {
-    margin-left: 5px;
-    right: 0px !important;
-    top: 0px !important;
-}
+/* #browser.linux .window-buttongroup { */
+/*     margin-left: 0px; */
+/*     right: 0px !important; */
+/*     /\* top: 0px !important; *\/ */
+/* } */
 .maximized .window-buttongroup {
-    margin-left: 5px;
-    opacity: 0.0;
-    width: 0px !important;
+    display: none !important;
 }
 #browser .window-buttongroup {
-    height: 5px !important;
-    margin-top: 9px !important;
-    margin-right: 0px !important;
+    margin-left: 8px;
+    margin-top: 3px !important;
+    /* margin-top: 1px !important; */
+    clear: top !important;
+    clear: bottom !important;
+    /* padding-bottom: 10px !important; */
+    display: flex !important;
+    vertical-align: middle !important;
+    /* margin-bottom: -10px !important; */
+    /* bottom: -10px !important; */
+}
+/* move CSD a little bit when tabs off cause titlebar is more narrow  */
+#browser.tabs-off .window-buttongroup {
+    margin-top: 1px !important;
+}
+/* title bar color when tabs are off */
+#header{background-color:#2e3a50}
+/* active tab highlight color */
+.tab.active {
+    background-color: #5294e2 !important;
+    color: #FFFFFF !important;
+}
+
+/* these settings are to shrink tab bar but there are issues */
+/* #tabs-container { */
+/*     height: 20px !important; */
+/*     margin-top: 0px !important; */
+/*     padding-top: 0px !important; */
+/* } */
+
+/* .tab-position .tab .tab-header { */
+/*     /\* top right bottom left*\/ */
+/*     padding: 2px 0 6px 6px !important; */
+/*     align-items: top !important; */
+/*     height: 20px !important; */
+/* } */
+/* .tab-position .tab .favicon, */
+/* .tab-position .tab .close { */
+/*     margin-top: 1px !important; */
+/*     margin-bottom: 2px !important; */
+/*     padding-bottom: 5px !important; */
+/*     min-height: 15px !important; */
+/*     height: 15px !important; */
+/*     background-size: 15px 15px !important; */
+/* } */
+/* .tab-indicator.active { */
+/*     background-color: rgba(205, 115, 232, 1) !important; */
+/* } */
+/* .tab-position .tab.active .tab-header input.tab-title-edit { */
+/*     /\* background-color: var(--colorAccentBgDark); *\/ */
+/*     color: rgba(205, 115, 232, 1) !important; */
+/* } */
+/* .tab-position .tab.active .tab-header .title { */
+/*     background-color: rgba(205, 115, 232, 1) !important; */
+/* } */
+
+
+/* #browser.native.linux.tabs-top.stacks-off #titlebar button, */
+/* #browser.native.win.tabs-top.stacks-off #titlebar .window-buttongroup { */
+/*     display: none !important; */
+/* } */
+#browser.linux #titlebar #pagetitle {
+    height: 20px !important;
+    top: 3px !important;
+    clear: top !important;
+}
+.address-bottom #tabs-container.top,
+.address-off #tabs-container.top {
+    border-bottom-width: 0px !important;
 }
 #browser .window-buttongroup button {
-    height: 30px !important;
+    /* height: 30px !important; */
+    /* top: 5px :important; */
+    background-color: transparent !important;
+    /* background-color: rgba(205, 115, 232, 1) !important; */
     width: 21px !important;
+    background-repeat: no-repeat !important;
+    vertical-align: center !important;
     margin-left: 0px !important;
-    background-repeat: no-repeat;
- }
+}
 #browser.linux .window-buttongroup button.window-minimize svg path,
 #browser.linux .window-buttongroup button.window-maximize svg path,
 #browser.linux .window-buttongroup button.window-restore svg path,
 #browser.linux .window-buttongroup button.window-close svg path {
     display: none;
+}
+#browser .window-buttongroup button svg circle {
+    fill-opacity: 0.2;
 }
 #browser.linux .window-buttongroup button.window-minimize {
     background-size: 13px 13px;
@@ -61,7 +138,7 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8' standalone='no'?%3E%3C!-- Created with Inkscape (http://www.inkscape.org/) --%3E%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' width='5.3362565mm' height='5.3362598mm' viewBox='0 0 5.3362565 5.3362598' version='1.1' id='svg1572' inkscape:version='0.92.2 5c3e80d, 2017-08-06' sodipodi:docname='maximize-inactive.svg'%3E%3Cdefs id='defs1566' /%3E%3Csodipodi:namedview id='base' pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1.0' inkscape:pageopacity='0.0' inkscape:pageshadow='2' inkscape:zoom='1.4' inkscape:cx='180.89703' inkscape:cy='-246.89191' inkscape:document-units='mm' inkscape:current-layer='layer1' showgrid='false' fit-margin-top='0' fit-margin-left='0' fit-margin-right='0' fit-margin-bottom='0' inkscape:window-width='1920' inkscape:window-height='1050' inkscape:window-x='0' inkscape:window-y='30' inkscape:window-maximized='1' /%3E%3Cmetadata id='metadata1569'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Cdc:title%3E%3C/dc:title%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(-6.0253247,-11.303303)'%3E%3Cg id='deactivated-center' transform='matrix(0.00585212,0,0,-0.00585215,5.9903339,16.668092)'%3E%3Cpath inkscape:connector-curvature='0' d='m 461.904,4.8749973 c 251.80053,0 455.92533,204.1212727 455.92533,455.9250027 0,251.79627 -204.1248,455.92107 -455.92533,455.92107 C 210.10453,916.72107 5.979168,712.59627 5.979168,460.8 5.979168,208.99627 210.10453,4.8749973 461.904,4.8749973' style='fill:%23b4b4b4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672' id='path14-2-4' /%3E%3Cpath inkscape:connector-curvature='0' d='m 461.904,43.650027 c 230.384,0 417.1456,186.762773 417.1456,417.149973 0,230.37867 -186.7616,417.1456 -417.1456,417.1456 C 231.52107,877.9456 44.754133,691.17867 44.754133,460.8 44.754133,230.4128 231.52107,43.650027 461.904,43.650027' style='fill:%23c7c7c7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672' id='path16-2-0' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
 }
 /*#browser.linux .window-buttongroup button {
-  
+
     transition: all 0.2s ease; */
 }
 #browser.linux .window-buttongroup button:hover {
