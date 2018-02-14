@@ -44,7 +44,10 @@
     margin-top: 1px !important;
 }
 /* title bar color when tabs are off */
-#header{background-color:#2e3a50}
+#header{
+    background-color:#2e3a50 !important;
+    color: #FFFFFF !important;
+}
 /* active tab highlight color */
 .tab.active {
     background-color: #5294e2 !important;
