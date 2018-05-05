@@ -54,6 +54,20 @@
     color: #FFFFFF !important;
 }
 
+.tab {
+    background-color: #232e3b !important;
+    color: #FFFFFF !important;
+    opacity: 1.0 !important;
+}
+/* #tabs-container.top .tab-strip { */
+/*     display: flex !important; */
+/*     background-color: #232e3b !important; */
+/* } */
+/* #tabs-container .trash { */
+/*     background-color: #232e3b !important; */
+/* } */
+
+
 /* these settings are to shrink tab bar but there are issues */
 /* #tabs-container { */
 /*     height: 20px !important; */
