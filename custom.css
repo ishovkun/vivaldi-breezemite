@@ -72,16 +72,14 @@
 /*     height: 15px !important; */
 /*     background-size: 15px 15px !important; */
 /* } */
-/* .tab-indicator.active { */
-/*     background-color: rgba(205, 115, 232, 1) !important; */
-/* } */
-/* .tab-position .tab.active .tab-header input.tab-title-edit { */
-/*     /\* background-color: var(--colorAccentBgDark); *\/ */
-/*     color: rgba(205, 115, 232, 1) !important; */
-/* } */
-/* .tab-position .tab.active .tab-header .title { */
-/*     background-color: rgba(205, 115, 232, 1) !important; */
-/* } */
+.tab-indicator.active {
+    background-color: #4285f4!important;
+}
+
+.tab.active {
+    background-color: #4285f4 !important;
+    color: #ffffff !important;
+}
 
 
 /* #browser.native.linux.tabs-top.stacks-off #titlebar button, */
