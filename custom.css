@@ -1,3 +1,4 @@
+
 #browser .vivaldi {
     display: none !important;
     padding-bottom: 7px !important;
@@ -43,29 +44,10 @@
 #browser.tabs-off .window-buttongroup {
     margin-top: 1px !important;
 }
-/* title bar color when tabs are off */
-#header{
-    background-color:#2e3a50 !important;
-    color: #FFFFFF !important;
+/* hide title bar when tabs off */
+#browser.tabs-off #header {
+    display: none !important;
 }
-/* active tab highlight color */
-.tab.active {
-    background-color: #5294e2 !important;
-    color: #FFFFFF !important;
-}
-
-.tab {
-    background-color: #232e3b !important;
-    color: #FFFFFF !important;
-    opacity: 1.0 !important;
-}
-/* #tabs-container.top .tab-strip { */
-/*     display: flex !important; */
-/*     background-color: #232e3b !important; */
-/* } */
-/* #tabs-container .trash { */
-/*     background-color: #232e3b !important; */
-/* } */
 
 
 /* these settings are to shrink tab bar but there are issues */
