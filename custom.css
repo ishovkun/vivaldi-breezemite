@@ -72,13 +72,17 @@
 /*     height: 15px !important; */
 /*     background-size: 15px 15px !important; */
 /* } */
+
 .tab-indicator.active {
-    background-color: #4285f4!important;
+    background-color: #4285f4 !important;
 }
 
 .tab.active {
     background-color: #4285f4 !important;
     color: #ffffff !important;
+}
+.tab {
+    background-color: #232e3b !important;
 }
 
 
