@@ -82,7 +82,8 @@
     color: #ffffff !important;
 }
 .tab {
-    background-color: #232e3b !important;
+    opacity: 1 !important;
+    background-color: var(--colorBg) !important;
 }
 
 
