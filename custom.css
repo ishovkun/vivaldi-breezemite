@@ -73,13 +73,16 @@
 /*     background-size: 15px 15px !important; */
 /* } */
 
-.tab-indicator.active {
-    background-color: #4285f4 !important;
-}
+/* .tab-indicator.active { */
+    /* background-color: #4285f4 !important; */
+/* } */
 
 .tab.active {
-    background-color: #4285f4 !important;
-    color: #ffffff !important;
+    opacity: 1 !important;
+    /* background-color: #4285f4 !important;*/
+    /* color: #ffffff !important; */
+    color: var(--colorAccentFg) !important;
+    background-color: var(--colorAccentBg) !important;
 }
 .tab {
     opacity: 1 !important;
